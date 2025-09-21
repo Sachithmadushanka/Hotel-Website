@@ -8,47 +8,47 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white/90 backdrop-blur-md shadow-lg fixed w-full top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <nav className="fixed top-0 z-50 w-full shadow-lg bg-white/90 backdrop-blur-md">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
             <div className="flex items-center">
-              <span className="text-gray-600 text-lg font-light">Hotel</span>
-              <span className="text-gray-800 text-xl font-bold ml-1">DEWORA</span>
+              <span className="text-lg font-light text-gray-600">Hotel</span>
+              <span className="ml-6 font-serif text-2xl font-bold tracking-wide text-blue-600">DEWORA</span>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
+            <div className="flex items-baseline ml-10 space-x-8">
               <a
                 href="#home"
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-300"
+                className="px-3 py-2 text-sm font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
               >
                 Home
               </a>
               <a
                 href="#gallery"
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-300"
+                className="px-3 py-2 text-sm font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
               >
                 Gallery
               </a>
               <a
                 href="#rooms"
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-300"
+                className="px-3 py-2 text-sm font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
               >
                 Rooms
               </a>
               <a
                 href="#about"
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-300"
+                className="px-3 py-2 text-sm font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
               >
                 About Us
               </a>
               <a
                 href="#contact"
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors duration-300"
+                className="px-3 py-2 text-sm font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
               >
                 Contact
               </a>
@@ -57,7 +57,7 @@ const Navbar = () => {
 
           {/* Book Now Button */}
           <div className="hidden md:block">
-            <button className="bg-cyan-400 hover:bg-cyan-500 text-gray-800 font-semibold py-2 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg">
+            <button className="px-6 py-2 font-semibold text-gray-800 transition-colors duration-300 rounded-lg shadow-md bg-cyan-400 hover:bg-cyan-500 hover:shadow-lg">
               Book Now
             </button>
           </div>
@@ -66,13 +66,13 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              className="inline-flex items-center justify-center p-2 text-gray-700 rounded-md hover:text-blue-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
               {!isMenuOpen ? (
                 <svg
-                  className="block h-6 w-6"
+                  className="block w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -88,7 +88,7 @@ const Navbar = () => {
                 </svg>
               ) : (
                 <svg
-                  className="block h-6 w-6"
+                  className="block w-6 h-6"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -111,39 +111,39 @@ const Navbar = () => {
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white/95 backdrop-blur-md shadow-lg">
+          <div className="px-2 pt-2 pb-3 space-y-1 shadow-lg sm:px-3 bg-white/95 backdrop-blur-md">
             <a
               href="#home"
-              className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium transition-colors duration-300"
+              className="block px-3 py-2 text-base font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
             >
               Home
             </a>
             <a
               href="#gallery"
-              className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium transition-colors duration-300"
+              className="block px-3 py-2 text-base font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
             >
               Gallery
             </a>
             <a
               href="#rooms"
-              className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium transition-colors duration-300"
+              className="block px-3 py-2 text-base font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
             >
               Rooms
             </a>
             <a
               href="#about"
-              className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium transition-colors duration-300"
+              className="block px-3 py-2 text-base font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
             >
               About Us
             </a>
             <a
               href="#contact"
-              className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium transition-colors duration-300"
+              className="block px-3 py-2 text-base font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
             >
               Contact
             </a>
             <div className="px-3 py-2">
-              <button className="bg-cyan-400 hover:bg-cyan-500 text-gray-800 font-semibold py-2 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg w-full">
+              <button className="w-full px-6 py-2 font-semibold text-gray-800 transition-colors duration-300 rounded-lg shadow-md bg-cyan-400 hover:bg-cyan-500 hover:shadow-lg">
                 Book Now
               </button>
             </div>
