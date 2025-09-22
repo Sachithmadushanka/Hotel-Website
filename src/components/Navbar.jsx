@@ -23,11 +23,13 @@ const Navbar = () => {
     <nav className="fixed top-0 z-50 w-full shadow-lg bg-white/90 backdrop-blur-md">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+          {/* Enhanced Logo */}
           <div className="flex-shrink-0">
-            <div className="flex items-center">
-              <span className="text-lg font-light text-gray-600">Hotel</span>
-              <span className="ml-6 font-serif text-2xl font-bold tracking-wide text-blue-600">DEWORA</span>
+            <div className="flex items-center group">
+              <span className="text-lg font-light text-gray-600 transition-all duration-300 group-hover:text-gray-700">Hotel</span>
+              <span className="ml-6 font-serif text-3xl font-bold tracking-wide bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent hover:from-blue-700 hover:to-purple-700 transition-all duration-500 transform group-hover:scale-105">DEWORA</span>
+              {/* Subtle luxury indicator */}
+              <div className="ml-2 w-2 h-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full opacity-70 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
           </div>
 
