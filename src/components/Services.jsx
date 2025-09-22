@@ -80,7 +80,7 @@ const Services = () => {
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
-          {servicesData.map((service, index) => (
+          {servicesData.map((service) => (
             <div
               key={service.id}
               className="overflow-hidden transition-all duration-500 bg-white shadow-xl group rounded-2xl hover:shadow-2xl hover:scale-105"
