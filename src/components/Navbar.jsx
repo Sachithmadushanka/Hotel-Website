@@ -7,6 +7,18 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleBookNow = () => {
+    const roomsSection = document.getElementById('rooms');
+    if (roomsSection) {
+      roomsSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+    // Close mobile menu if open
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 z-50 w-full shadow-lg bg-white/90 backdrop-blur-md">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -23,7 +35,7 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="flex items-baseline ml-10 space-x-8">
               <a
-                href="#home"
+                href="#"
                 className="px-3 py-2 text-sm font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
               >
                 Home
@@ -57,7 +69,10 @@ const Navbar = () => {
 
           {/* Book Now Button */}
           <div className="hidden md:block">
-            <button className="px-6 py-2 font-semibold text-gray-800 transition-colors duration-300 rounded-lg shadow-md bg-cyan-400 hover:bg-cyan-500 hover:shadow-lg">
+            <button 
+              onClick={handleBookNow}
+              className="px-6 py-2 font-semibold text-gray-800 transition-colors duration-300 rounded-lg shadow-md bg-cyan-400 hover:bg-cyan-500 hover:shadow-lg"
+            >
               Book Now
             </button>
           </div>
@@ -143,7 +158,10 @@ const Navbar = () => {
               Contact
             </a>
             <div className="px-3 py-2">
-              <button className="w-full px-6 py-2 font-semibold text-gray-800 transition-colors duration-300 rounded-lg shadow-md bg-cyan-400 hover:bg-cyan-500 hover:shadow-lg">
+              <button 
+                onClick={handleBookNow}
+                className="w-full px-6 py-2 font-semibold text-gray-800 transition-colors duration-300 rounded-lg shadow-md bg-cyan-400 hover:bg-cyan-500 hover:shadow-lg"
+              >
                 Book Now
               </button>
             </div>
