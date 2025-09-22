@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Gallery from './components/Gallery'
 import Rooms from './components/Rooms'
+import Services from './components/Services'
 
 function App() {
   // Scroll to top when component mounts (page loads/reloads)
@@ -58,6 +59,9 @@ function App() {
 
       {/* Rooms Section */}
       <Rooms />
+
+      {/* Services Section */}
+      <Services />
     </div>
   )
 }
