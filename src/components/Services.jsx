@@ -14,7 +14,7 @@ const Services = () => {
       image: spaImg,
       description: "Indulge in our world-class spa services featuring traditional and modern wellness treatments. Our experienced therapists offer massages, facials, and holistic therapies to rejuvenate your body and mind.",
       features: ["Full-body massages", "Facial treatments", "Aromatherapy", "Sauna & Steam room", "Wellness packages"],
-      hours: "Daily 8:00 AM - 10:00 PM",
+      hours: "Daily 6:00 AM - 10:00 PM",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -26,8 +26,8 @@ const Services = () => {
       title: "Modern Gym",
       image: gymImg,
       description: "Stay fit during your stay with our state-of-the-art fitness center. Equipped with the latest cardio machines, free weights, and strength training equipment for all fitness levels.",
-      features: ["Cardio equipment", "Free weights", "Strength machines", "Personal training", "24/7 access"],
-      hours: "24/7 Access",
+      features: ["Cardio equipment", "Free weights", "Strength machines", "Personal training"],
+      hours: "Daily 6:00 AM - 10:00 PM",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -124,17 +124,6 @@ const Services = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Bottom CTA Section */}
-        <div className="p-8 mt-16 text-center text-white bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl">
-          <h3 className="mb-4 text-3xl font-bold">Need More Information?</h3>
-          <p className="mb-6 text-xl opacity-90">
-            Our concierge team is available 24/7 to help you with reservations and special requests
-          </p>
-          <button className="px-8 py-3 font-semibold text-blue-600 transition-all duration-300 transform bg-white rounded-lg shadow-lg hover:bg-gray-100 hover:shadow-xl hover:scale-105">
-            Contact Concierge
-          </button>
         </div>
       </div>
     </section>

@@ -4,6 +4,7 @@ import About from './components/About'
 import Gallery from './components/Gallery'
 import Rooms from './components/Rooms'
 import Services from './components/Services'
+import Contact from './components/Contact'
 
 function App() {
   // Scroll to top when component mounts (page loads/reloads)
@@ -53,6 +54,9 @@ function App() {
 
       {/* Services Section */}
       <Services />
+
+      {/* Contact Section */}
+      <Contact />
     </div>
   )
 }
