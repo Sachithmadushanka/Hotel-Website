@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Navbar from './components/Navbar'
+import About from './components/About'
 import Gallery from './components/Gallery'
 import Rooms from './components/Rooms'
 import Services from './components/Services'
@@ -39,20 +40,10 @@ function App() {
         </div>
       </section>
 
-      {/* Additional sections can be added here */}
-      <section className="py-16 bg-white">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="mb-8 text-3xl font-bold text-gray-900">
-              Experience Luxury and Comfort
-            </h2>
-            <p className="max-w-3xl mx-auto text-lg text-gray-600">
-              Discover our world-class amenities, exceptional service, and beautiful accommodations 
-              that make Hotel Dewora the perfect choice for your stay.
-            </p>
-          </div>
-        </div>
-      </section>
+      
+
+      {/* About Section */}
+      <About />
 
       {/* Gallery Section */}
       <Gallery />

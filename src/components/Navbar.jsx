@@ -41,6 +41,12 @@ const Navbar = () => {
                 Home
               </a>
               <a
+                href="#about"
+                className="px-3 py-2 text-sm font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
+              >
+                About Us
+              </a>
+              <a
                 href="#gallery"
                 className="px-3 py-2 text-sm font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
               >
@@ -57,12 +63,6 @@ const Navbar = () => {
                 className="px-3 py-2 text-sm font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
               >
                 Services
-              </a>
-              <a
-                href="#about"
-                className="px-3 py-2 text-sm font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
-              >
-                About Us
               </a>
               <a
                 href="#contact"
@@ -140,6 +140,12 @@ const Navbar = () => {
               Home
             </a>
             <a
+              href="#about"
+              className="block px-3 py-2 text-base font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
+            >
+              About Us
+            </a>
+            <a
               href="#gallery"
               className="block px-3 py-2 text-base font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
             >
@@ -156,12 +162,6 @@ const Navbar = () => {
               className="block px-3 py-2 text-base font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
             >
               Services
-            </a>
-            <a
-              href="#about"
-              className="block px-3 py-2 text-base font-medium text-gray-700 transition-colors duration-300 hover:text-blue-600"
-            >
-              About Us
             </a>
             <a
               href="#contact"
