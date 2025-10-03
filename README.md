@@ -121,7 +121,7 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Dewmini-Kaveesha/Dewora-Website.git
+   git clone https://github.com/Sachithmadushanka/Hotel-Website.git
    cd Dewora-Website
    ```
 
@@ -231,9 +231,9 @@ We welcome contributions to enhance the DEWORA Hotel website:
 ## 📞 Contact
 
 For inquiries about this project:
-- **Email**: dewminikaveeshaa@gmail.com
-- **GitHub**: [github.com/Dewmini-Kaveesha](https://github.com/Dewmini-Kaveesha)
-- **LinkedIn**: [Connect with me](https://linkedin.com/in/dewmini-kaveesha)
+- **Email**: sachithmkumarasiri@gmail.com
+- **GitHub**: [github.com/Dewmini-Kaveesha](https://github.com/Sachithmadushanka)
+- **LinkedIn**: [Connect with me](https://linkedin.com/in/sachith-madushanka)
 
 ---
 
