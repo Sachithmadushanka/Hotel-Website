@@ -232,8 +232,8 @@ We welcome contributions to enhance the DEWORA Hotel website:
 
 For inquiries about this project:
 - **Email**: sachithmkumarasiri@gmail.com
-- **GitHub**: [github.com/Dewmini-Kaveesha](https://github.com/Sachithmadushanka)
-- **LinkedIn**: [Connect with me](https://linkedin.com/in/sachith-madushanka)
+- **GitHub**: [github.com/Sachith-Madushanka](https://github.com/Sachithmadushanka)
+- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/sachith-madushanka-9638a7254/)
 
 ---
 
